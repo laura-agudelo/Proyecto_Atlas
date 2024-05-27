@@ -184,6 +184,88 @@ font-size: 60px;
   .container-logo img{
     margin: 50px;
   }
+  footer {
+    position: relative;
+    height: 560px; 
+    background-image: url('../images/contact-bk.jpg');
+    background-size: cover; /* Para cubrir todo el área del header */
+    background-position: center;
+   }
+   .color{
+    background-color: #192440;
+    top: 547%;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+   }
+   .color >h4{
+    color:white;
+    font-size: 17px;
+    margin: 40px;
+    padding-left: 7%;
+   }
+   .color >.icon{
+    position: absolute;
+    top: 10%;
+    margin-left: 75%;
+   }
+   .icon >img{
+    display: inline-block;
+    margin: 20px;
+   }
+   .container-form {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    margin: 190px;
+  }
+  .container-form > textarea{
+   width: 20rem;
+   background-color: transparent;
+  }
+  
+  .form {
+    width: 300px; /* Ancho del formulario */
+  }
+  
+  .cluster {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .field label {
+    display: block;
+    margin-bottom: 10px;
+  }
+ .container-form label{
+    color: #00ffad;
+    
+  }
+ input{
+    padding: 10px;
+    border: 1px solid #00ffad;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  textarea {
+    background-color: transparent;
+    border: 1px solid #00ffad;
+    width: 390px;
+    margin-top: 10px;
+  }
+  .message{
+    margin-top: 10%;
+  }
+  .button >input{
+    width: 400px;
+    border-radius: 15px;
+    background-color: #00ffac;
+  }
 
   
 
