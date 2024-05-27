@@ -81,8 +81,100 @@ body{
   }
   .text >h1{
     font-size: 30px;
+  }.conainer-two img{
+    position: absolute;
+    top: 299%;
+    left: 10%;
+    transform: translateY(-50%);
   }
+  .text2 {
+    position: absolute;
+    padding-left: 60%;
+    top: 268%;
+  }
+  .text2 >h1{
+    font-size: 39px;
+  }
+  .conainer-two button{
+    margin-top: 12px; 
+    width: 40%;
+    height: 3rem;
+    border-radius: 90px;
+    background-color:#192440;
+    color: white;
+  }
+  .containers-body h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+  .title-body{
+    display: flex;
+    align-items: center;
+
+  flex-direction: column;
+  margin-top: 2%;
+  font-size: 25px;
+}
+.containers-body{
+  display: flex;
+  flex-direction: column;
   
+}
+.pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 2%;
+  height: 390px;
+ 
+}
+.container1{
+  margin-left: 100px;
+  margin-right: 110px;
+  
+}
+.container2{
+  color: white;
+ background-color: #192440;
+padding-left: 3%;
+padding-right: 3%;
+ margin-left: 100px;
+ margin-right: 50px;
+}
+.container3{
+  margin-left: 110px;
+  margin-right: 100px;
+}
+.container1 button{
+  margin-top: 10px; 
+  width: 75%;
+  height: 2rem;
+  border-radius: 30px;
+  border-bottom: 2px solid black;
+}
+.container2 button{
+  margin-top: 10px; 
+  width: 75%;
+  height: 2rem;
+  border-radius: 30px;
+  background-color:#00ffad; 
+}
+.container3 button{
+  margin-top: 10px; 
+  width: 55%;
+  height: 2rem;
+  border-radius: 30px;
+  border-bottom: 2px solid black;
+}
+span{
+font-size: 60px;
+}
+.pricing p{
+  font-size: 20px;
+}
+
   
 
  
